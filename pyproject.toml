@@ -2,12 +2,12 @@
 name = "argus-deploy"
 version = "0.1.0"
 description = "Compiled Argus ANPR Service"
-requires-python = ">=3.11"
+requires-python = ">=3.12"
 dependencies = [
     "asyncer>=0.0.18",
     "fastapi>=0.141.1",
     "loguru>=0.7.2",
-    "numpy>=2.5.1",
+    "numpy>=2.0.0",
     "onnxruntime>=1.29.0",
     "opencv-python-headless>=4.7.0",
     "pillow>=10.0.0",
